@@ -10,3 +10,7 @@ app/dist
 
 # logs
 npm-debug.log
+
+# lock
+yarn.lock
+package-lock.json
