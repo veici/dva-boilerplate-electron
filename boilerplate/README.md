@@ -7,25 +7,25 @@
 Install dependencies.
 
 ```bash
-$ npm install
+$ yarn
 ```
 
 Start webpack and watch.
 
 ```bash
-$ npm run dev
+$ yarn dev
 ```
 
 Then open another terminal, and run start.
 
 ```bash
-$ npm start
+$ yarn start
 ```
 
 ## Build
 
 ```bash
-$ npm run pack
+$ yarn package
 ```
 
 ## License

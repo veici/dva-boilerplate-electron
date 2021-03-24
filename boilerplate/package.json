@@ -15,7 +15,7 @@
     "lint": "eslint --ext .js src test webpack.config.babel.js",
     "test": "mocha test/**/*-test.js --require babel-register --require ./test/setup --no-timeouts",
     "rebuild": "electron-rebuild -m ./app",
-    "pack": "yarn build && yarn rebuild && build",
+    "package": "yarn build && yarn rebuild && build",
     "pack:dir": "yarn build && yarn rebuild && build --dir",
     "pack:justBuild": "build --dir",
     "precommit": "yarn lint"
